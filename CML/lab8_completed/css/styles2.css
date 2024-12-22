@@ -1,0 +1,57 @@
+.block {
+    margin-left: 10px;
+    display: inline-block;
+    position: relative;
+    border: 2px solid black;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+}
+
+.block a {
+    position: absolute;
+    line-height: 35px;
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    font-size: 24px;
+}
+
+.blockImg {
+    display: none;
+    background-image: url("../imgs/facultet.png");
+    background-repeat: no-repeat;
+    background-size: 35px 140px;
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+}
+
+.block1 {
+    display: none;
+    position: absolute;
+    width: 200px;
+    min-height: 30px;
+    top: 100%;
+    left: -1%;
+}
+
+.block1 a {
+    position: relative;
+    display: block;
+    border: 2px solid black;
+    text-align: center;
+    min-height: 30px;
+    line-height: 30px;
+}
+
+.block:hover .blockImg, .block1:hover + .blockImg {
+    display: block;
+}
+.block:hover .block1, .block1:hover {
+    display: block;
+}

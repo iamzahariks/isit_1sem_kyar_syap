@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/task2.xsl"?>
+<body>
+    <table>
+        <root>
+            <th>Учащийся</th>
+            <disc1>Дисциплина 1</disc1>
+            <disc2>Дисциплина 2</disc2>
+            <disc3>Дисциплина 3</disc3>
+        </root>
+        <student>
+            <th>Позняк Захар</th>
+            <disc1>7</disc1>
+            <disc2>9</disc2>
+            <disc3>8</disc3>
+        </student>
+        <student>
+            <th>Клемято Кирилл</th>
+            <disc1>3</disc1>
+            <disc2>4</disc2>
+            <disc3>8</disc3>
+        </student>
+        <student>
+            <th>Холевинский Евгений</th>
+            <disc1>9</disc1>
+            <disc2>8</disc2>
+            <disc3>4</disc3>
+        </student>
+    </table>
+</body>

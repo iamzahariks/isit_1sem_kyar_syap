@@ -1,0 +1,212 @@
+body {
+  background-color: #FFD7C4;
+}
+
+header {
+  background-color: #87A2FF;
+  border-radius: 25px;
+  width: 100%;
+  margin: 0px auto;
+}
+header h1 {
+  font-size: 36px;
+  color: #FFF4B5;
+  text-shadow: #FC0 1px 0 10px;
+  text-align: center;
+  margin: 0px;
+}
+header h1 + p {
+  font-size: 24px;
+  color: #FFF4B5;
+  text-align: center;
+  margin: 0px;
+}
+header .info {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #C4D7FF;
+  margin: 0px auto;
+  margin-top: 10px;
+  width: 95%;
+  min-height: 50px;
+  border-radius: 15px;
+  border: 4px dotted #FFD7C4;
+}
+header .info div {
+  text-align: center;
+}
+header .info div p {
+  margin: 0 0;
+  min-width: 100px;
+  font-size: 24px;
+}
+header .info div p + input {
+  max-width: 150px;
+}
+header .info #money {
+  color: red;
+  font-size: 24px;
+  text-shadow: 0 0 0 0;
+}
+header .menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px auto;
+  width: 95%;
+  min-height: 70px;
+  margin-top: 10px;
+}
+header .menu .block {
+  text-align: center;
+  background-color: #C4D7FF;
+  border-radius: 50px;
+  border: 2px solid black;
+  min-width: 10%;
+}
+header .menu .block a, header .menu .block p {
+  font-size: 24px;
+  margin: 0px;
+}
+header .menu #minigames {
+  position: relative;
+}
+header .menu #minigames #menu-games {
+  border-radius: 15px;
+  position: absolute;
+  background-color: rgba(1, 1, 1, 0.5);
+  top: 100%;
+  width: 100%;
+}
+header .menu #minigames #menu-games a {
+  display: block;
+  background-color: #87A2FF;
+  border-radius: 15px;
+  border: 2px dashed purple;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #FFF4B5;
+  text-align: center;
+  font-size: 16px;
+  min-height: 25px;
+  width: 80%;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+main .info {
+  background-color: #87A2FF;
+  border: 2px solid black;
+  border-radius: 15px;
+  height: 100%;
+  width: 60%;
+  padding-bottom: 50px;
+}
+main .info h2 {
+  text-align: center;
+  font-size: 36px;
+}
+main .info .list {
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 50px;
+  width: 100%;
+  height: 85%;
+  align-items: center;
+  justify-content: flex-start;
+}
+main .info .list .game1, main .info .list .game2 {
+  background-color: #C4D7FF;
+  border-radius: 5px;
+  width: 80%;
+}
+main .info img + p {
+  font-size: 36px;
+  margin: 0;
+  color: green;
+}
+main .news {
+  background-color: #87A2FF;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 25%;
+  height: 800px;
+}
+main .news h2 {
+  color: purple;
+  text-align: center;
+}
+main .news .list {
+  overflow-y: scroll;
+  height: 700px;
+}
+main .news .list p {
+  margin-top: 50px;
+  color: blue;
+  font-size: 24px;
+}
+main #game1 {
+  background-color: #C4D7FF;
+  width: 50%;
+  min-height: 500px;
+  border-radius: 35px;
+  border: 5px solid black;
+}
+main #game1 h2, main #game1 h4 {
+  text-align: center;
+}
+main #game1 #gameProcess {
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  aspect-ratio: 1;
+}
+main #game1 #gameProcess table {
+  width: 100%;
+  height: 100%;
+  border: 5px solid black;
+  border-collapse: collapse;
+}
+main #game1 #gameProcess table tr td {
+  width: 33%;
+  height: 33%;
+  border: 5px solid black;
+  text-align: center;
+  font-size: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+footer {
+  background-color: #87A2FF;
+  border-radius: 50px;
+  width: 100%;
+  margin: 0px auto;
+  margin-top: 15px;
+}
+footer p {
+  font-size: 16px;
+  text-align: center;
+  margin: 0px;
+}
+footer #giveMoney {
+  margin: 0px;
+  font-size: 16px;
+  color: green;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}/*# sourceMappingURL=styles.css.map */

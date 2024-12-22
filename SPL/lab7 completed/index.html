@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        p {
+            font-weight: bold;
+        }
+    </style>
+
+    <title>Лаб. 7</title>
+</head>
+<body>
+    <form name="studentInfo">
+        <fieldset style="width: 500px; margin: auto">
+            <textarea style="width: 150px; height: 45px; font-weight: bold;">Факультет информационных технологий</textarea> </br>
+
+            <br> <input type="text" name="studentSurname" placeholder="Фамилия"/>
+            <br> <input type="text" name="studentName" placeholder="Имя"/> </br>
+
+            <p> Специальность <select name="selectSpeciality"> 
+                <option> ИСиТ </option> 
+                <option> ПОИТ </option> 
+                <option> ПОИТБМС </option> 
+                <option> ДЭВИ </option> 
+            </select> </p>
+            
+            <p> Курс <br> 
+                <input type="radio" name = "kurs" value = "1"> 1 </input>
+                <input type="radio" name = "kurs" value = "2"> 2 </input>
+                <input type="radio" name = "kurs" value = "3"> 3 </input>
+                <input type="radio" name = "kurs" value = "4"> 4 </input>
+            </br> </p>
+
+            <p> Предметы <br> 
+                <input type="checkbox" name = "OIT" rusName = "ОИТ"> ОИТ </input>
+                <input type="checkbox" name = "OAP" rusName = "ОАП"> ОАП </input>
+                <input type="checkbox" name = "History" rusName = "История"> История </input>
+                <input type="checkbox" name = "Physics" rusName = "Физика"> Физика </input>
+                <input type="checkbox" name = "Math" rusName = "Математика"> Математика </input>
+            </br> </p>
+            
+            <p> <input type="button" value="sumbit"/> <input type="button" value="reset" onclick="Reset()"/> </p>
+            <input type="button" value="Напечатать" onclick="Write()"/>
+        </fieldset>
+    </form>
+    <script src = "scripts/scripts.js"></script>
+</body>
+</html>

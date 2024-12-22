@@ -1,0 +1,29 @@
+@keyframes task5 {
+    25% {
+        content:url("/imgs/chair1.png");
+    }
+
+    50% {
+        content:url("/imgs/chair2.png");
+    }
+
+    75% {
+        content:url("/imgs/chair3.png");
+    }
+
+    100% {
+        content:url("/imgs/chair4.png");
+    }
+}
+
+.imgForTask5 {
+    width: 300px;
+    height: 300px;  
+    content:url("/imgs/chair1.png");
+
+    margin-top: 50px;
+    animation-name: task5;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}

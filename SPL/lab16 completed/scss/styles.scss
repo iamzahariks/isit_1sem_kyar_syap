@@ -1,0 +1,241 @@
+@import "variables.scss";
+
+body {
+    background-color: $thirdColor;
+}
+
+header {
+    background-color: $mainColor;
+    border-radius: 25px;
+    width: 100%;
+    margin: 0px auto;
+
+    h1 {
+        font-size: 36px;
+        color: $textColor;
+        text-shadow: #FC0 1px 0 10px;
+        text-align: center;
+        margin: 0px;
+    }
+
+    h1 + p {
+        font-size: 24px;
+        color: $textColor;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .info {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        background-color: $secondColor;
+        margin: 0px auto;
+        margin-top: 10px;
+        width: 95%;
+        min-height: 50px;
+        border-radius: 15px;
+        border: 4px dotted $thirdColor;
+
+        div {
+            text-align: center; 
+
+            p {
+                margin: 0 0;
+                min-width: 100px;
+                font-size: 24px;
+            }
+    
+            p + input {
+                max-width: 150px;
+            }
+        }
+
+        #money {
+            color: red;
+            font-size: 24px;
+            text-shadow: 0 0 0 0;
+        }
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px auto;
+        width: 95%;
+        min-height: 70px;
+        margin-top: 10px;
+
+        .block {
+            text-align: center;
+            background-color: $secondColor;
+            border-radius: 50px;
+            border: 2px solid black;
+            min-width: 10%;
+
+            a, p {
+                font-size: 24px;
+                margin: 0px;
+            }
+        }
+
+        #minigames {
+            position: relative;
+
+            #menu-games {
+                border-radius: 15px;
+                position: absolute;
+                background-color: rgba(1, 1, 1, 0.5);
+                top: 100%;
+                width: 100%;
+
+                a {
+                    display: block;
+                    background-color: $mainColor;
+                    border-radius: 15px;
+                    border: 2px dashed purple;
+                    margin: 0 auto;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    color: $textColor;
+                    text-align: center;
+                    font-size: 16px;
+                    min-height: 25px;
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+
+    .info {
+        background-color: $mainColor;
+        border: 2px solid black;
+        border-radius: 15px;
+        height: 100%;
+        width: 60%;
+
+        padding-bottom: 50px;
+
+        h2 {
+            text-align: center;
+            font-size: 36px;
+        }
+
+        .list {
+            display: flex;
+            flex-flow: column wrap;
+            row-gap: 50px;
+            width: 100%;
+            height: 85%;
+            align-items: center;
+            justify-content: flex-start;
+
+            .game1, .game2 {
+                background-color: $secondColor;
+                border-radius: 5px;
+                width: 80%;
+            }
+        }
+
+        img + p {
+            font-size: 36px;
+            margin: 0;
+            color: green;
+        }
+    }
+
+    .news {
+        background-color: $mainColor;
+        border: 2px solid black;
+        border-radius: 15px;
+        width: 25%;
+        height: 800px;
+
+        h2 {
+            color: purple;
+            text-align: center;
+        }
+
+        .list {
+            overflow-y: scroll;
+            height: 700px;
+
+            p {
+                margin-top: 50px;
+                color: blue;
+                font-size: 24px;
+            }
+        }
+    }
+
+    #game1 {
+        background-color: $secondColor;
+        width: 50%;
+        min-height: 500px;
+        border-radius: 35px;
+        border: 5px solid black;
+
+        h2, h4 {
+            text-align: center;
+        }
+
+        #gameProcess {
+            background-color: white;
+            width: 70%;
+            margin: 0 auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            aspect-ratio: 1;
+
+            table {
+                width: 100%;
+                height: 100%;
+                border: 5px solid black;
+                border-collapse: collapse;
+
+                tr td {
+                    width: 33%;
+                    height: 33%;
+                    border: 5px solid black;
+                    text-align: center;
+                    font-size: 64px;
+                    user-select: none;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background-color: $mainColor;
+    border-radius: 50px;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 15px;
+
+    p {
+        font-size: 16px;
+        text-align: center;
+        margin: 0px;
+    }
+
+    #giveMoney {
+        margin: 0px;
+        font-size: 16px;
+        color: green;
+        user-select: none;
+    }
+}

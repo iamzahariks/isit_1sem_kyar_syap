@@ -1,0 +1,48 @@
+.figTask3_1 {
+    margin-top: 50px;
+    display: inline-block;  
+    text-align: center;
+    background-color: yellow;
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transform: perspective(480px) rotateX(15deg);
+}
+
+.figTask3_2 {
+    display: inline-block;  
+    text-align: center;
+    background-color: yellow;
+    border: 3px solid black;
+    margin-left: 90px;
+    width: 300px;
+    height: 300px;
+    transform: perspective(240px) rotateY(15deg);
+}
+
+.figTask3_3 {
+    margin-top: 50px;
+    display: inline-block;  
+    text-align: center;
+    background-color: yellow;
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+    padding-left: 70px;
+    padding-right: 70px;
+    transform: perspective(480px) rotateX(15deg);
+}
+
+.figTask3_4 {
+    display: inline-block;  
+    text-align: center;
+    background-color: yellow;
+    border: 3px solid black;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    transform: perspective(240px) rotateY(-15deg);
+}

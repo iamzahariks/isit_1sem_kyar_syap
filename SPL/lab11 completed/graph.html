@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../libs/jquery.min.js"></script>
+
+    <style>
+        #buttonMakeGraph {
+            width: 200px;
+            height: 50px;
+            margin-left: 5px;
+            border: 2px solid;
+            border-radius: 50px;
+            background-color: rgb(122, 97, 136)
+        }
+    </style>
+
+    <title>Графики</title>
+</head>
+
+<body>
+    <form
+        style="border: 3px solid; width: 500px; height: 200px; margin: auto; border-radius: 25px; background-color: rgb(158, 129, 129);">
+        <h3 style="text-align: center;"> Рисование графиков </h3>
+        <p style="font-size: 24px; font-weight: bold; margin-left: 5px;"> Выбор графика:
+            <select id="selectId">
+                <option> y=x^2 </option>
+                <option> y=x^3 </option>
+                <option> y=sin(x) </option>
+                <option> y=cos(x) </option>
+            </select>
+        </p>
+        <input id="buttonMakeGraph" type="button" value="Нарисовать график"> </input>
+    </form>
+
+    <script src="scripts/graphScript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .myBlock1 {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+
+            border: 3px solid black;
+            background-color: white;
+            background-image: linear-gradient(to bottom, blue, red);
+        }
+
+        .myBlock2 {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+
+            border: 3px solid black;
+            background-image: repeating-linear-gradient(45deg, red, red 7px, blue 7px, blue 14px);
+        }
+
+        .myBlock3 {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+
+            border: 3px solid black;
+            background-image: repeating-radial-gradient(circle at 50% 50%, rgb(251, 255, 0), rgb(251, 255, 0) 8px, rgb(9, 156, 46) 8px, rgb(9, 156, 46) 16px);
+        }
+
+        .myBlock4 {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+
+            border: 3px solid black;
+            background-color: white;
+            background-image: radial-gradient(circle at 50% 50%, rgb(251, 255, 0), rgb(9, 156, 46));
+        }
+
+        .myBlock5 {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+
+            border: 3px solid black;
+            background-color: white;
+            background-image: radial-gradient(circle at 50% 50%, rgb(251, 255, 0), rgb(9, 156, 46), rgba(0,0,0,0)), linear-gradient(to bottom, blue 50%, purple 50%);
+        }
+    </style>
+
+    <title>Произвольные цвета</title>
+</head>
+<body>
+    <div class="myBlock1"> </div>
+    <div class="myBlock2"> </div>
+    <div class="myBlock3"> </div>
+    <div class="myBlock4"> </div>
+    <div class="myBlock5"> </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+aside {
+    width: 40%;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px blue;
+}
+
+aside p, aside a {
+    margin-left: 15px;
+    font-size: 24px;
+}
+
+.href1:link {
+    color: red;
+}
+
+.href2:visited {
+    color: #8B0000;
+}
+
+.href3:hover {
+    color: green;
+}
+
+.href4:active {
+    color:  rgb(184, 134, 11);
+}
+
+div {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: -6px;
+    color: green;   
+    background-color: yellow;
+    border: 3px solid green;
+}

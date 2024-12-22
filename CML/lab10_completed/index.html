@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style1.css" rel="stylesheet" media="all">
+    <link href="css/forTask3_1.css" rel="stylesheet" media="(min-width: 1280px) and (max-width: 1280px)">
+
+    <style>
+        @media (min-width: 480px) and (max-width: 480px) {
+            .block4 div p {
+                color: red;
+            }
+        }
+
+        @media (max-width: 1280px) {
+            .block4 {
+                flex-flow: column;
+            }
+
+            .block4 div {
+                width: 100%;
+            }
+        }
+    </style>
+
+    <title>Лаба 10</title>
+</head>
+<body>
+    <input style="position: absolute; width: 0px; height: 0px;" type="checkbox" id="hamburgerMenu">
+    <div class="myFlexBox">
+        <div class="block1">
+            <p> Информация </p>
+            <label for="hamburgerMenu" class="hamburger">&#8801</label>
+        </div>
+        <div class="block2">
+            <video controls="controls" style="width: 100%;" src="videos/video.mp4"></video>
+            <video controls="controls" style="width: 100%; margin-top: 5%;" src="videos/video.mp4"></video>
+            <video controls="controls" style="width: 100%; margin-top: 5%;" src="videos/video.mp4"></video>
+        </div>
+        <div class="block3"> 
+            <p>
+                Flexbox-верстка – разметка макетов веб-страниц, которая позволяет автоматически настраивать ширину элементов, находящих-
+                ся внутри flex-контейнера. Для применения данного способа разметки следует учитывать разделение применяемых свойств на
+                свойства flex-контейнера и свойства flex-элемента.
+                С помощью display: flex; осуществляется преобразование
+                HTML-элемента   в flex-контейнер, а элементы, находящиеся внутри него, в flex-элементы. По умолчанию flex-элементы помещаются друг за другом в одной строке. Свойство flex-flow позволяет
+                выбрать направление отображения элементов в контейнере, а также указать их перенос на следующую строку. Первое значение
+                определяет направление, а второе – перенос на следующую строку.
+                Свойство flex-flow является сокращенной записью и содержит
+                значения свойств flex-direction и flex-wrap. Flex-элементы могут размещаться в строке (значение row) или в колонке (значение column).
+                Перенос элементов осуществляется с помощью значения wrap.
+                Свойство justify-content определяет способ выключки flexэлементов в строке. Для выравнивания по левому краю используется значение flex-start, а по правому краю – flex-end. Для равномерного распределения элементов, за счет создания пространства
+                между ними необходимо применить значение space-between, а значение space-around добавляет поля по левому и правому краям
+                крайних элементов.
+            </p>    
+        </div>
+        <div class="block2">
+            <audio controls="controls" style="width: 100%;" src="audios/1.mp3"></audio>
+            <audio controls="controls" style="width: 100%; margin-top: 20%;" src="audios/2.mp3"></audio>
+            <audio controls="controls" style="width: 100%; margin-top: 20%;" src="audios/3.mp3"></audio>
+        </div>
+        <div class="block4">
+            <div>
+                <img src="images/cat1.png">
+                <p>Котёнок</p>
+            </div>
+            <div>
+                <img src="images/cat2.png">
+                <p>Котёнок</p>
+            </div>
+            <div>
+                <img src="images/cat3.png">
+                <p>Котёнок</p>
+            </div>
+            <div>
+                <img src="images/cat4.png">
+                <p>Котёнок</p>
+            </div>
+            <div>
+                <img src="images/cat1.png">
+                <p>Котёнок</p>
+            </div>
+            <div>
+                <img src="images/cat2.png">
+                <p>Котёнок</p>
+            </div>
+            <div>
+                <img src="images/cat3.png">
+                <p>Котёнок</p>
+            </div>
+            <div>
+                <img src="images/cat4.png">
+                <p>Котёнок</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

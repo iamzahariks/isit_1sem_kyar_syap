@@ -1,0 +1,63 @@
+.button1 {
+    background-color: white;
+    display: inline;
+    height: 50px;
+    width: 125px;
+    border: none;
+}
+
+.button2 {
+    background-color: white;
+    display: inline;
+    height: 50px;
+    width: 125px;
+    border: none;
+}
+
+.button3 {
+    background-color: white;
+    display: inline;
+    height: 50px;
+    width: 125px;
+    border: none;
+}
+
+.button4 {
+    background-color: white;
+    display: inline;
+    height: 50px;
+    width: 125px;
+    border: none;
+}
+
+.button5 {
+    background-color: white;
+    display: inline;
+    height: 50px;
+    width: 125px;
+    border: none;
+}
+
+.button1:hover {
+    background-color: black;
+    color: white;
+}
+
+.button2:hover {
+    border: 5px solid black;
+    box-shadow: 0 0 0 5px yellow;
+}
+
+.button3:hover {
+    border-top: 5px green solid;
+    border-bottom: 5px green solid;
+}
+
+.button4:hover {
+    border-left: 5px blue solid;
+    border-right: 5px blue solid;
+}
+
+.button5:hover {
+    background-image: radial-gradient(ellipse at 50% 50%, yellow 5px, hotpink 11px, aqua);
+}

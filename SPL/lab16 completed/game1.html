@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="imgs/joystick.png" rel="icon">
+    <link href="css/styles.css" rel="stylesheet" media="all">
+
+    <title>Мини-игры</title>
+</head>
+<body>
+    <header>
+        <h1>КРЕСТИКИ-НОЛИКИ</h1>
+        <p>Игра: Крестики-Нолики. Сумеете ли вы выиграть?</p>
+
+        <div class="info">
+            <div>
+                <p> Ваш никнейм: </p>
+                <input maxlength="10" type="text" placeholder="Захар" id="nickname">
+            </div>
+
+            <div>
+                <p> Ваша почта: </p>
+                <input maxlength="30" type="email" placeholder="Zakhar@gmail.com" id="email">
+            </div>
+
+            <p id="money">У вас на счету: 999 монет</p>
+        </div>
+
+        <div class="menu">
+            <div class="block" id="minigames">
+                <p>Мини-игры</p>
+                <div id="menu-games">
+                    <a href="game1.html">Крестики-нолики</a>
+                    <a href="game2.html">Камень-ножницы-бумага</a>
+                </div>
+            </div>
+            <div class="block">
+                <a href="index.html">Вернуться на главную страницу</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="game1">
+            <h2>Чтобы начать игру, просто на пустую клетку!</h2>
+            <h4>В случае проигрыша, начиная игру вы теряете сразу же 10 монет, но при победе вы получаете 20 монет!</h4>
+
+            <div id="gameProcess">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© Лицензия Позняка Захара Сергеевича, типа крутой сайт, поставьте ему класс!</p>
+        <p id="giveMoney">Дайте денег...</p>
+    </footer>
+
+    <script src="scripts/game1.js"></script>
+</body>
+</html>

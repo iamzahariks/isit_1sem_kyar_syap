@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="css/styles.css"?>
+<body>
+    <list>
+        <item>
+            <img></img>
+            <cost> $1.49 </cost>
+            <description> Вкуснейшие яблоки! </description>
+        </item>
+
+        <item>
+            <img></img>
+            <cost> $299 </cost>
+            <description> Женёк с другой комнаты играет на гитаре просто, поэтому она здесь... </description>
+        </item>
+
+        <item>
+            <img></img>
+            <cost> $99 </cost>
+            <description> Кросовки для крутых!!! </description>
+        </item>
+
+        <item>
+            <img></img>
+            <cost> $399 </cost>
+            <description> Первый умный телефон! </description>
+        </item>
+
+        <item>
+            <img></img>
+            <cost> $49 </cost>
+            <description> Персидский ковёр - очень дорогой ковёр. И именно в этом ковре... </description>
+        </item>
+    </list>
+</body>

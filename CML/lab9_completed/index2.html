@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="css/normalize.css" rel="stylesheet" media="all">
+  <link href="css/skeleton.css" rel="stylesheet" media="all">
+
+  <style>
+    .grid {
+      display: grid;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      grid-template-areas:
+        "a b c d e"
+        "a1 b1 c1 d1 e1"
+        "a2 b2 c2 d2 e2"
+        "a3 b3 c3 d3 e3";
+      grid-template-columns: 20% 20% 20% 20% 20%;
+      grid-template-rows: 25% 25% 25% 25%;
+      grid-gap: 5px;
+    }
+
+    .grid div {
+      background-color: gainsboro;
+      position: relative;
+      border: 2px black solid;
+    }
+
+    .classImg {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+    
+    .classP {
+      z-index: 2;
+      position: absolute;
+      width: 100%;
+      height: 20%;
+      top: 80%;
+      color: green;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 24px;
+    }
+  </style>
+
+  <title>Лаба 9-2</title>
+</head>
+
+<body>
+  <div class="grid">
+    <div style="grid-area: a;">
+      <img class="classImg" src="images/dog.png">
+      <p class="classP">Собачка 1</p>
+    </div>
+    <div style="grid-area: b;">
+      <img class="classImg" src="images/dog.png">
+      <p class="classP">Собачка 2</p>
+    </div>
+    <div style="grid-area: c;">
+      <img class="classImg" src="images/dog.png">
+      <p class="classP">Собачка 3</p>
+    </div>
+    <div style="grid-area: d;">
+      <img class="classImg" src="images/dog.png">
+      <p class="classP">Собачка 4</p>
+    </div>
+    <div style="grid-area: e;">
+      <img class="classImg" src="images/dog.png">
+      <p class="classP">Собачка 5</p>
+    </div>
+    <div style="grid-area: a1;">
+      <img class="classImg" src="images/dog.png">
+      <p class="classP">Собачка 6</p>
+    </div>
+    <div style="grid-area: b1;">
+      <img class="classImg" src="images/dog.png">
+      <p class="classP">Собачка 7</p>
+    </div>
+    <div style="grid-area: c1;">
+      <img class="classImg" src="images/dog.png">
+      <p class="classP">Собачка 8</p>
+    </div>
+    <div style="grid-area: d1; grid-row: 2/4; grid-column: 4/6; background-color: grey;">
+      <img class="classImg" src="images/gif1.gif">
+      <p class="classP" style="color: red; font-size: 20px; font-weight: bold;">Крутой чувачок</p>
+    </div>
+    <div style="grid-area: a2; grid-row: 3/5; grid-column: 1/3; background-color: grey; float: left">
+      <img style="width: 100px; height: 100px; float: left;" src="images/dog.png">
+      <p style="color:red; font-size: 36px">Очень хорошая и милая собачка и всё такое</p>
+    </div>
+    <div style="grid-area: c2;">
+      <img class="classImg" src="images/dog.png">
+      <p class="classP">Собачка 11</p>
+    </div>
+    <div style="grid-area: c3;">
+      <img class="classImg" src="images/dog.png">
+      <p class="classP">Собачка 12</p>
+    </div>
+    <div style="grid-area: d3;">
+      <img class="classImg" src="images/dog.png">
+      <p class="classP">Собачка 13</p>
+    </div>
+    <div style="grid-area: e3;">
+      <img class="classImg" src="images/dog.png">
+      <p class="classP">Собачка 14</p>
+    </div>
+  </div>
+</body>
+
+</html>

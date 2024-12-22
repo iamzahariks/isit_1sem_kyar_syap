@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: 
+        url("../fonts/Comfortaa.ttf") format("TrueType");
+}
+
+@font-face {
+    font-family: "Caveat";
+    src: 
+        url("../fonts/Caveat.ttf") format("TrueType");
+}
+
+@font-face {
+    font-family: "Exo2";
+    src: 
+        url("../fonts/Exo2-VariableFont_wght.ttf") format("TrueType");
+}
+
+h1 {
+    font-family: "Caveat";
+    font-size: 45px;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px black;
+}
+
+h2 {
+    font-family: "Exo2";
+    text-align: left;
+    margin-bottom: 1.2em;
+    margin-top: 0.2rem;
+    text-indent: 25px;
+}
+
+.styleP1 {
+    font-family: "Comfortaa";
+    text-indent: 25px;
+    text-align: justify;
+    margin: 0px;
+    line-height: 200%;
+    font-size: 20px;
+}
+
+.styleP1::first-letter {
+    font-weight: bold;
+    font-size: 45px;
+    color:white;
+    background-color: hsla(275, 100%, 10%, 1);
+}
+
+ol li {
+    font-family: "Comfortaa";
+    list-style-type: none;
+    counter-increment: item;
+    color: black;
+
+    font-family: "Comfortaa";
+    text-indent: 25px;
+    text-align: justify;
+    margin: 0px;
+    line-height: 200%;
+    font-size: 20px;
+}
+
+ol li::before {
+    content: counter(item, upper-roman) ". ";
+    color: blue;
+}
+
+.styleP2 {
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: "Comfortaa";
+}
+
+.styleP2::first-line {
+    color: red;
+}

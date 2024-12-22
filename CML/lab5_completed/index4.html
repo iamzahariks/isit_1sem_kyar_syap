@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        table {
+            border-spacing: 0;
+            margin: auto;
+        }
+
+        .empty {
+            visibility: hidden;
+        }
+
+        .pole {
+            height: 80px;
+            width: 80px;
+            background-color: white;
+        }
+
+        table tr td {
+            text-align: center;
+            border: 1px solid;
+            width: 25px;
+            height: 25px;
+            background-color: grey;
+        }
+
+        table tr:nth-child(even) .pole:nth-child(odd) {
+            background-color: black;
+        }
+
+        table tr:nth-child(odd) .pole:nth-child(even) {
+            background-color: black;
+        }
+
+    </style>
+
+    <title>Задание 4 - Шахматы</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="empty"></td>
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+            <td>d</td>
+            <td>e</td>
+            <td>f</td>
+            <td>g</td>
+            <td>h</td>
+            <td class="empty"></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td class="pole"></td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td class="empty"></td>
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+            <td>d</td>
+            <td>e</td>
+            <td>f</td>
+            <td>g</td>
+            <td>h</td>
+            <td class="empty"></td>
+        </tr>
+    </table>
+</body>
+</html>

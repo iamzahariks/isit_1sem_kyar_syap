@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        table {
+            border-spacing: 0px;
+            empty-cells: hide;
+            margin: auto;
+        }
+
+        table caption {
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        table thead tr td {
+            text-align: center;
+            background-color: darkblue;
+            font-size: 18px;
+            color: white;
+            border: 2px solid grey;
+            width: 70px;
+        }
+
+        table tbody tr td, table tfoot, tr, td {
+            text-align: center;
+            border: 2px solid grey;
+            font-size: 18px;
+            width: 70px;
+        }
+
+        table tbody tr td:nth-child(1) {
+            font-size: 24px;
+        }
+
+        table tbody tr td:nth-child(2), table tfoot tr td:nth-child(2) {
+            background-color: rgb(37, 195, 243);
+            color: white;
+        }
+
+        table tbody tr td:nth-child(3), table tfoot tr td:nth-child(3) {
+            background-color: purple;
+            color: white;
+        }
+
+        table tbody tr td:nth-child(4), table tfoot tr td:nth-child(4) {
+            background-color: green;
+            color: white;
+        }
+    </style>
+
+    <title>Задание 2 - Смартфоны</title>
+</head>
+<body>
+    <table>
+        <caption> Russia: Top smartphones vendors </caption>
+        <caption> Q1 2021 </caption>
+
+        <thead>
+            <tr>
+                <td></td>
+                <td>Vendor</td>
+                <td>Unit Share</td>
+                <td>Annual Growth</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>#1⬆</td>
+                <td>Xiaomi</td>
+                <td>32%</td>
+                <td>+125%</td>
+            </tr>
+            <tr>
+                <td>#2⬆</td>
+                <td>Samsung</td>
+                <td>27%</td>
+                <td>+41%</td>
+            </tr>
+            <tr>
+                <td>#3⬆</td>
+                <td>Honor</td>
+                <td>10%</td>
+                <td>0%</td>
+            </tr>
+            <tr>
+                <td>#4⬌</td>
+                <td>Apple</td>
+                <td>9%</td>
+                <td>+24%</td>
+            </tr>
+            <tr>
+                <td>#5⬌</td>
+                <td>Realmi</td>
+                <td>9%</td>
+                <td>+682%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>Total</td>
+                <td>+82%</td>
+                <td>682%</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

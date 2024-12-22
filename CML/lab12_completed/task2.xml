@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="css/styles.css"?>
+<!DOCTYPE body[
+    <!ELEMENT body (list)>
+    <!ELEMENT list (item*)>
+    <!ELEMENT item (img, cost, description)>
+    <!ELEMENT img (#PCDATA)>
+    <!ELEMENT cost (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+    <!ENTITY dollar "$">
+    <!ENTITY voskl "!">
+]>
+<body>
+    <list>
+        <item>
+            <img></img>
+            <cost> &dollar;1.49 </cost>
+            <description> Вкуснейшие яблоки &voskl; </description>
+        </item>
+
+        <item>
+            <img></img>
+            <cost> &dollar;299 </cost>
+            <description> Женёк с другой комнаты играет на гитаре просто, поэтому она здесь... </description>
+        </item>
+
+        <item>
+            <img></img>
+            <cost> &dollar;99 </cost>
+            <description> Кросовки для крутых&voskl;&voskl;&voskl; </description>
+        </item>
+
+        <item>
+            <img></img>
+            <cost> &dollar;399 </cost>
+            <description> Первый умный телефон&voskl; </description>
+        </item>
+
+        <item>
+            <img></img>
+            <cost> &dollar;49 </cost>
+            <description> Персидский ковёр - очень дорогой ковёр. И именно в этом ковре... </description>
+        </item>
+    </list>
+</body>

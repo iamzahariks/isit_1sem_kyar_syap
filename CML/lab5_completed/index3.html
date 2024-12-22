@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        form {
+            background-color: indigo;
+            width: 525px;
+            height: 525px;
+            margin: auto;
+        }
+
+        form p {
+            color: white;
+            font-size: 24px;
+            margin-left: 2em;
+            padding-top: 20px;
+        }
+
+        form table {
+            border-spacing: 5px;
+        }
+
+        form table tr td:first-child {
+            display: inline-block;
+            color: white;
+            text-align: left;
+            font-size: 1.2em;
+            margin-left: 2em;
+            margin-top: 10px;
+            width: 180px;
+        }
+
+        form table tr td:last-child {
+            width: 300px;
+            text-align: center;
+        }
+
+        form table tr td input[type="text"] {
+            display: inline-block;
+            background-color: rgba(255, 255, 255, 0.5);
+            color: rgba(255, 255, 255, 1);
+            box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.75);
+            height: 25px;
+            width: 200px;
+            border-radius: 5px;
+        }
+
+        form table tr td input[type="email"] {
+            display: inline-block;
+            background-color: rgba(255, 255, 255, 0.5);
+            color: rgba(255, 255, 255, 1);
+            box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.75);
+            height: 25px;
+            width: 200px;
+            border-radius: 5px;
+        }
+
+        form table tr td input[type="radio"]+label {
+            color: white;
+            font-size: 16px;
+        }
+
+        form table tr td input[type="text"]:focus {
+            background-color: white;
+            color: black;
+        }
+
+        .makedButton {
+            display: inline;
+            background-color: darkblue; 
+            border: 2px solid rgb(112, 6, 112); 
+            color: white; 
+            width: 100px; 
+            height: 25px;
+            box-shadow: 0 0 4px white;
+        }
+    </style>
+
+    <title>Задание 3 - Регистрация</title>
+</head>
+<body>
+    <form>
+        <p>Регистрация постоянного клиента</p>
+
+        <table>
+            <tr>
+                <td>Фамилия:</td>
+                <td> <input type="text"> </td>
+            </tr>
+            <tr>
+                <td>Имя:</td>
+                <td> <input type="text"> </td>
+            </tr>
+            <tr>
+                <td>Отчество:</td>
+                <td> <input type="text"> </td>
+            </tr>
+            <tr>
+                <td>Ваш возраст:</td>
+                <td> <input type="text"> </td>
+            </tr>
+            <tr>
+                <td>Пол:</td>
+                <td> <input name="sex" type="radio" id="frst"> <label> Мужской </label> <input name="sex" type="radio"> <label> Мужской </label> </td>
+            </tr>
+            <tr>
+                <td>Ваш Email:</td>
+                <td> <input type="email"> </td>
+            </tr>
+            <tr>
+                <td>Страна проживания:</td>
+                <td> <input type="text"> </td>
+            </tr>
+            <tr>
+                <td>Откуда вы узнали о нас?</td>
+                <td> <select> <option>Выбери вариант</option> <option>От друга</option> <option>В рекламе</option> </select> </td>
+            </tr>
+            <tr>
+                <td>Дата заполнения</td>
+                <td> <input type="date"> </td>
+            </tr>
+        </table>
+        
+        <button class="makedButton" style="margin-top: 30px; margin-left: 48%">Регистрация</button>
+        <button class="makedButton" style="margin-left: 5%;">Отмена</button>
+    </form>
+</body>
+</html>

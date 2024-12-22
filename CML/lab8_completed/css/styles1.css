@@ -1,0 +1,30 @@
+.menu {
+    background-color: yellow;
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.menu p {
+    margin-left: 5px;
+}
+
+.podmenu {
+    display: none;
+    width: 150px;
+}
+
+.podmenu a {
+    display: block;
+    background-color: orange;
+    width: 120px;
+    min-height: 30px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 10px;
+    border: 2px dashed black;
+}
+
+.menu:hover ~ .podmenu, .podmenu:hover {
+    display: block;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .menu-item{
+            background-color: black;
+            color: white;
+            width: 80px;
+            height: 20px;
+            text-align: center;
+            font-size: 16px;
+            margin-left: 35px;
+            border: 2px soild #66CDAA;
+            display: inline-block;
+            position: relative;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+
+        .menu-item .submenu{
+            border-radius: 25px;
+            text-align: center;
+            line-height: 40px;
+            height: 40px;
+            width: 120px;
+            background: green;
+            position: absolute;
+            left: -25%;
+            cursor: pointer;
+        }
+    </style>
+
+    <title>Меню</title>
+</head>
+<body>
+    <div id="nav">
+        <div class="menu-item">
+         Меню 1
+        <div class="submenu">
+        Подменю
+        </div></div>
+        <div class="menu-item">
+         Меню 2
+        <div class="submenu">
+        Подменю
+        </div></div>
+        <div class="menu-item">
+         Меню 3
+        <div class="submenu">
+        Подменю
+        </div></div>
+    </div>
+    <script src="scripts/menuScript.js"></script>
+</body>
+</html>

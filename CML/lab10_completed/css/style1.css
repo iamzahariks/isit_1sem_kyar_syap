@@ -1,0 +1,97 @@
+@import url(forTask3.css) (min-width:768px) and (max-width:768px);
+
+.myFlexBox {
+    display: flex;
+    width: 98%;
+    margin: 0 auto;
+    flex-flow: row wrap;
+    row-gap: 10px;  
+    justify-content: space-between;
+}
+
+.block1 {
+    position: relative;
+    width: 100%;
+    height: 48px;
+    border: 3px solid black;
+}
+
+.block1 p {
+    position: absolute;
+    width: 100%;
+    top: calc(-25%);
+    font-size: 24px;
+    text-align: center;
+}
+
+.block1 .hamburger {
+    position: absolute;
+    display: none;
+    top: calc(25%);
+    width: 15px;
+    aspect-ratio: 1;
+    font-size: 24px;
+    left: calc(100% - 30px);
+}
+
+.block2, .block3, .block4{
+    border: 3px solid black;
+    width: 25%;
+}
+
+.block3, .block4 {
+    width: 35%;
+}
+
+.block4 {
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    row-gap: 10px;
+}
+
+.block4 div {
+    position: relative;
+    width: 30%;
+    aspect-ratio: 1;
+}
+
+.block4 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.block4 p {
+    position: absolute;
+    width: 100%;
+    top: calc(100% - 50px);
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .myFlexBox {
+        width: 70%;
+        flex-flow: column;
+    }
+
+    .block1, .block2, .block3, .block4 {
+        width: 100%;
+    }
+    
+    .block2, .block3, .block4 {
+        visibility: hidden;
+    }
+
+    .block1 .hamburger {
+        display: inline;
+    }
+
+    #hamburgerMenu:checked + .myFlexBox .block2, #hamburgerMenu:checked + .myFlexBox .block3, #hamburgerMenu:checked + .myFlexBox .block4  {
+        visibility: visible;
+    }
+}

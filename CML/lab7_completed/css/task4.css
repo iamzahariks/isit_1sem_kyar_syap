@@ -1,0 +1,97 @@
+@keyframes animFigTask4_1 {
+    50% {
+        transform: perspective(256px) rotateY(0deg);
+    }
+
+    100% {
+        transform: perspective(256px) rotateY(0deg);
+    }
+}
+
+@keyframes animFigTask4_2 {
+    50% {
+        transform: perspective(256px) rotateY(0deg);
+        margin-left: -200px;
+        filter: blur(0px);
+    }
+
+    100% {
+        transform: perspective(256px) rotateY(0deg);
+        margin-left: 0px;
+        filter: blur(10px);
+    }
+}
+
+@keyframes animFigTask4_3 {
+    50% {
+        transform: perspective(256px) rotateY(0deg);
+        margin-left: -200px;
+        filter: grayscale(0);
+    }
+
+    100% {
+        transform: perspective(256px) rotateY(0deg);
+        margin-left: 0px;
+        filter: grayscale(1);
+    }
+}
+
+@keyframes animFigTask4_4 {
+    50% {
+        transform: perspective(256px) rotateY(0deg);
+        margin-left: -200px;
+        filter: invert(0);
+    }
+
+    100% {
+        transform: perspective(256px) rotateY(0deg);
+        margin-left: 0px;
+        filter: invert(1);
+    }
+}
+
+.figTask4_1, .figTask4_2, .figTask4_3, .figTask4_4 {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: inline-block;  
+    padding-left: 0px !important;
+    text-align: center;
+    writing-mode: vertical-lr;
+    background-color: green;
+    border: 3px solid black;
+    width: 200px;
+    height: 300px;
+    padding-left: 70px;
+    padding-right: 70px;
+    transform: perspective(256px) rotateY(22deg);
+}
+
+.figTask4_2, .figTask4_3, .figTask4_4 {
+    margin-left: -200px;
+}
+
+.figTask4_1 {
+    animation: animFigTask4_1 3s forwards;
+    animation-delay: 1s;
+}
+
+.figTask4_2 {
+    animation-name: animFigTask4_2;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.figTask4_3 {
+    animation-name: animFigTask4_3;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.figTask4_4 {
+    animation-name: animFigTask4_4;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
